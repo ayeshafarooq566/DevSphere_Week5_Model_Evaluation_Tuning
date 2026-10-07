@@ -1,71 +1,46 @@
-# DevSphere Week 5 - Model Evaluation and Tuning
+# 🧠 Model Evaluation & Hyperparameter Tuning
 
-## Project Title
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.7.2-orange?logo=scikit-learn)
+![Pandas](https://img.shields.io/badge/Pandas-2.3.3-150458?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-2.2.6-013243?logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-blue)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
-Breast Cancer Classification - Model Comparison and Hyperparameter Tuning
+> **DevSphere Internship — Week 5 Task**
 
-## Objective
+A complete machine learning project focused on **model evaluation, comparison, hyperparameter tuning, and performance visualization** using the Breast Cancer Wisconsin dataset.
 
-The objective of this project is to train multiple machine learning classification models, compare their performance using evaluation metrics, and optimize the best-performing model using hyperparameter tuning.
+The project compares three classification algorithms — **Logistic Regression, Random Forest, and Support Vector Machine (SVM)** — using multiple evaluation metrics and then applies **GridSearchCV** to optimize the best-performing model.
 
-## Dataset
+---
 
-The Breast Cancer Wisconsin dataset provided by scikit-learn was used.
+## 📌 Project Overview
 
-The dataset contains:
+The main goal of this project was to understand how different machine learning classification algorithms perform on the same dataset and how their performance can be evaluated using appropriate metrics.
 
-- 569 samples
-- 30 numerical features
-- 2 target classes
-
-No external dataset download is required.
-
-## Machine Learning Models
-
-The following models were trained:
-
-1. Logistic Regression
-2. Random Forest
-3. Support Vector Machine (SVM)
-
-## Evaluation Metrics
-
-The models were evaluated using:
-
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- ROC-AUC
-
-## Model Tuning
-
-GridSearchCV with 5-fold cross-validation was used to optimize the best-performing model.
-
-## Visualizations
-
-The project generates:
-
-- Model comparison chart
-- Confusion matrix
-- ROC curve
-- Hyperparameter tuning results
-
-## Project Structure
+The project follows a complete machine learning workflow:
 
 ```text
-DevSphere_Week5_Model_Tuning/
-│
-├── main.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-│
-├── src/
-│   ├── train_models.py
-│   ├── tune_model.py
-│   └── evaluate_model.py
-│
-├── models/
-├── outputs/
-└── screenshots/
+Dataset
+   ↓
+Data Preparation
+   ↓
+Train / Test Split
+   ↓
+Train Multiple Models
+   ↓
+Evaluate Models
+   ↓
+Compare Performance
+   ↓
+Select Best Model
+   ↓
+Hyperparameter Tuning
+   ↓
+Evaluate Optimized Model
+   ↓
+Save Model & Results
+   ↓
+Generate Visualizations
