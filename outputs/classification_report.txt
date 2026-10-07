@@ -1,0 +1,23 @@
+MODEL EVALUATION REPORT
+=======================
+
+Optimized Model: Logistic Regression
+
+Best Parameters:
+{'model__C': 0.1, 'model__solver': 'lbfgs'}
+
+Accuracy : 0.9737
+Precision: 0.9726
+Recall   : 0.9861
+F1 Score : 0.9793
+ROC-AUC  : 0.9957
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.95      0.96        42
+           1       0.97      0.99      0.98        72
+
+    accuracy                           0.97       114
+   macro avg       0.97      0.97      0.97       114
+weighted avg       0.97      0.97      0.97       114
